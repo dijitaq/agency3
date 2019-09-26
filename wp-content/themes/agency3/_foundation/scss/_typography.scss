@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Cardo:400,400italic);
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('../ BEBAS.eot');
+  src: local('☺'), url('../font/BEBAS.woff') format('woff'), url('../font/BEBAS.ttf') format('truetype'), url('../font/BEBAS.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Frutiger-Cn';
+  src: url('../font/Frutiger-Cn.eot');
+  src: local('☺'), url('../font/Frutiger-Cn.woff') format('woff'), url('../font/Frutiger-Cn.ttf') format('truetype'), url('../font/Frutiger-Cn.svg') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+$bebas_font: 'bebas-font';
+$cardo_font: 'Cardo', serif;
+$frugtiger_font: 'frutiger-font';
+
+
+h1, h2, h3, h4, h5 {
+	font-family: 'Bebas';
+	font-weight: 400;
+}
+
+p, small, li, a, label, input, textarea, button, .button, ::placeholder, figcaption, blockquote {
+	font-family: 'Frutiger-Cn';
+	font-weight: 400;
+	line-height: 1.35;
+}
