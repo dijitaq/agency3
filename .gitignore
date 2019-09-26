@@ -6,7 +6,9 @@
 /wp-content/plugins/svg-support
 /wp-content/plugins/types
 /wp-content/plugins/hello.php
-/wp-content/themes/agency3/_foundation
+/wp-content/themes/agency3/_foundation/etc
+/wp-content/themes/agency3/_foundation/js
+/wp-content/themes/agency3/_foundation/node_modules
 /wp-content/themes/joints
 /wp-content/themes/twentynineteen
 /wp-content/themes/upgrade
